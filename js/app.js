@@ -31,8 +31,8 @@ $(document).ready(function() {
         }
     })
     $equals.on('click', function() {
-        var problem = $screen.text();
-        $screen.text(eval(problem))
+        var equation = $screen.text();
+        $screen.text(eval(equation))
 
 
     })
